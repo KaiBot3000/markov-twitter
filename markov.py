@@ -61,4 +61,5 @@ if __name__ == "__main__":
 
     generator = MarkovMachine()
     generator.read_files(filenames)
-    print generator.make_text()
+    print generator.chains
+    #print generator.make_text()
